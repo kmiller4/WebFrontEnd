@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Kyle Miller</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #2077be;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #2077be; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  #api-request {
+    display: inline-block;
+  }
+  </style>
+</head>
+<body>
+
+<div id="put-request" class="container-fluid bg-1 text-right">
+  <h2 class="margin" id="visitor-count">Visitor Count: 
+    <div id="api-request"></div>
+  </h2>
+</div>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Kyle Miller</h3>
+  <img src="icon.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="Kyle" width="350" height="350">
+  <h3>Senior Security Engineer</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What do I do?</h3>
+  <p>I'm a security engineer invested in cybersecurity and all things cloud. Previously full stack developer for CollegeBoard and Linux System Administrator for Infosys. Years of experience with Linux, AWS, coding, and IT help desk support.</p>
+  <a href="https://www.linkedin.com/in/kyle-miller-64b1b769/" class="btn btn-default btn-lg">
+    <span class="glyphicon"></span> LinkedIn
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Projects</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>3D Liquid Simulation</p>
+      <img src="liquidSimulation.PNG" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Newton's Dream</p>
+      <img src="newtonsDream.PNG" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Randomly generated fractal plant in Java</p>
+      <img src="RandomlyGeneratedPlant.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p></p> 
+</footer>
+
+</body>
+</html>
