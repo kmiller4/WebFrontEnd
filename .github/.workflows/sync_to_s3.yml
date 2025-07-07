@@ -1,2 +1,2 @@
-name: AWS Static Web App Update Action
-uses: kazimanzurrashid/aws-static-web-app-update-action@v1.1.3
+- name: AWS Static Web App Update Action
+  uses: kazimanzurrashid/aws-static-web-app-update-action@v1.1.3
